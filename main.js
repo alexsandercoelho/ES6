@@ -1,3 +1,4 @@
+/*Classes 
 class List {
   constructor(){
     this.data = [];
@@ -30,3 +31,14 @@ document.getElementById('novotodo').onclick = function(){
 }
 
 MinhaLista.mostraUsuario();
+*/
+const usuario = {
+  nome: 'fulano',
+  idade: '33',
+  empresa: 'uol'
+ };
+const {nome, ...resto} = usuario;
+
+console.log(nome);
+console.log(resto);
+
